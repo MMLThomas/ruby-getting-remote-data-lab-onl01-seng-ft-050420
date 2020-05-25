@@ -12,8 +12,8 @@ class CetRequester
   end
   
   def get_response_body
-    open(@url)
-    response = HTTP::
+    uri = URI.parse
+    response = HTTP::URI (uri)
     response.body
     
   end
