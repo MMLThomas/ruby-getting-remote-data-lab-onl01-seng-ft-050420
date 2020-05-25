@@ -1,5 +1,5 @@
 # Write your code here
-require 'uri'
+require 'open-uri'
 
 
 
