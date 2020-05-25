@@ -7,6 +7,7 @@ require 'json'
 
 
 class CetRequester
+  attr_accessor
   
   
   def initialize(url)
