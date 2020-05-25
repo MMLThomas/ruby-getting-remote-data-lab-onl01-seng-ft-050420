@@ -20,10 +20,8 @@ class CetRequester
   end
   
   def parse_json
-    json = JSON.parse(get_response_body)
-    
-    
-    
+    data = JSON.parse(get_response_body)
+    data
   end
   
   
