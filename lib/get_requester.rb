@@ -1,6 +1,7 @@
 # Write your code here
 require 'open-uri'
 require 'net/http'
+require 'json'
 
 
 
@@ -19,7 +20,8 @@ class CetRequester
   end
   
   def parse_json
-    sleJSON 
+    json.parse(get_response_body)
+    
     
   end
   
