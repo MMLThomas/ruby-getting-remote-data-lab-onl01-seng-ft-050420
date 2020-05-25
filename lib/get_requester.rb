@@ -6,7 +6,7 @@ require 'json'
 
 
 
-class CetRequester
+class GetRequester
   attr_accessor
   
   
